@@ -1,24 +1,76 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Romero</title>
-        <meta name="description" content="Antonio Parker Romero's website for practicing HTML and CSS concepts.">
+        <title>Beach House</title>
+        <meta name="description" content="This is a website for the band, Beach House">
         <link rel="stylesheet" href="styles.css"/>
     </head>
-    <body>
-        <div>
-            <header>
-                <nav>
-                    <ul>
-                        <li>Resume</li>
-                        <li>Projects</li>
-                        <li>Awards</li>
-                        <li>About Me</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
+    <div>
+        <header class="main-header fixed-header">
+            <nav class="nav main-nav headerscroll">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
             </header>
-        </div>
-    </body>
-
+        <section class="first-section">
+            <h1 class="band-name band-name-large">Beach House</h1>
+            <div class="container">
+                <button class="btn btn-header" type="button">Get our latest album</button>
+            </div>
+            <a href="http://beachhouse7.com/" target="_blank" class="play-btn-link"><button class="btn btn-header btn-play" type="button">&#9658;</button></a>
+        </section>
+        <section class="content-section container">
+            <h2 class="section-header">TOURS</h2>
+            <div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 13</span>
+                    <span class="tour-item tour-city">FORT WORTH, TX</span>
+                    <span class="tour-item tour-arena">DICKIES ARENA</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 15</span>
+                    <span class="tour-item tour-city">AUSTIN, TX</span>
+                    <span class="tour-item tour-arena">FRANK ERWIN CENTER</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 17</span>
+                    <span class="tour-item tour-city">HOUSTON, TX</span>
+                    <span class="tour-item tour-arena">TOYOTA CENTER</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 18</span>
+                    <span class="tour-item tour-city">NEW ORLEANS, LA</span>
+                    <span class="tour-item tour-arena">SMOOTHIE KING CENTER</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div>
+                    <span class="tooltip">Hover Over Me!<img class="tooltip pop-up-img" src="images/Beach_House_at_House_of_Blues.jpeg"></span>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Beach House</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://youtube.com" target="_blank"><img src="images/yt_icon.png" width="100"></a></li>
+                    <li><a href="https://spotify.com" target="_blank"><img src="images/Spotify_Icon.png" width="100"></a></li>
+                    <li><a href="https://facebook.com/beachhouse" target="_blank"><img src="images/facebook_icon.png" width="100"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </html>

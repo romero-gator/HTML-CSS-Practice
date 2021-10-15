@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beach House | Store</title>
+        <meta name="description" content="This is a website for the band, Beach House">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <div>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">Beach House</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Bloom</span>
+                    <img class="shop-item-img" src="images/bloom_album.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">7</span>
+                    <img class="shop-item-img" src="images/7_album.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Depression Cherry</span>
+                    <img class="shop-item-img" src="images/dep_cher_album.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Hoodie</span>
+                    <img class="shop-item-img" src="images/hoodie.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$70.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Limited Edition Jersey</span>
+                    <img class="shop-item-img" src="images/jersey.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$200.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>   
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-img" src="images/bloom_album.png" width="100" height="100">
+                        <span class="cart-item-title">Bloom</span>
+                    </div>
+                    <span class="cart-price cart-column">$10.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE ITEM</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$10.99</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Beach House</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://youtube.com" target="_blank"><img src="images/yt_icon.png" width="100"></a></li>
+                    <li><a href="https://spotify.com" target="_blank"><img src="images/Spotify_Icon.png" width="100"></a></li>
+                    <li><a href="https://facebook.com/beachhouse" target="_blank"><img src="images/facebook_icon.png" width="100"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</html>
